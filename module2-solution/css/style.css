@@ -7,6 +7,9 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+  body {
+    background-color: rgb(231, 231, 231);
+  }
   
   body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     margin: 0;
@@ -14,8 +17,6 @@ html {
     font-weight: normal;
   }
   .header-container {
-    border: 2px solid black;
-    border-radius: 10px;
     margin: 20px;
   }
   .header-container > h1 {
@@ -47,7 +48,7 @@ html {
       padding: 2px 0;
   }
   .food-item:nth-of-type(1) .food-title {
-      background-color: seagreen;
+      background-color: rgb(250, 150, 150);
   }
   .food-item:nth-of-type(2) .food-title {
     background-color: rgb(212, 59, 59);
